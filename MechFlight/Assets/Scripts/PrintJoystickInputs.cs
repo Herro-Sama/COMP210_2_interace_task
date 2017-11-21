@@ -7,6 +7,8 @@ public class PrintJoystickInputs : MonoBehaviour {
 	public float speed = 10.0F;
 	public float rotationSpeed = 100.0F;
 
+	public GameObject ammoType;
+
 	private Vector3 MovementDirection; 
 	private Vector3 RotationDirection;
 		
@@ -25,12 +27,19 @@ public class PrintJoystickInputs : MonoBehaviour {
 		//print("Horizontal Joystick One " + Input.GetAxis("HorizontalJoy1"));
 
 		//print("Fire Joystick One " + Input.GetAxis("Fire"));
-		//print("Boost Joystick One " + Input.GetAxis("Fire"));
+		//print("Boost Joystick One " + Input.GetAxis("Boost"));
 
 		//print("Vertical Joystick Two " + Input.GetAxis("VerticalJoy2"));
 		//print("Horizontal Joystick Two " + Input.GetAxis("HorizontalJoy2"));
 
 		//print (MovementDirection);
+
+
+
+		if (Input.GetAxis ("Fire") > 0)
+		{
+			Instantiate (ammoType, gameObject.transform.position, gameObject.transform.rotation);
+		}
 
 		gameObject.transform.Translate (MovementDirection);
 		gameObject.transform.Rotate (RotationDirection);

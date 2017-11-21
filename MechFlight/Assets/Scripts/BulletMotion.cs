@@ -4,16 +4,15 @@ using UnityEngine;
 
 public class BulletMotion : MonoBehaviour {
 
-	private Vector3 BulletSpeed;
-
-	void awake ()
+	void Fire ()
 	{
-		//BulletSpeed.forward
+		gameObject.GetComponent<Rigidbody>().velocity = gameObject.transform.forward * 6;
+		Destroy (gameObject, 2.0f);
 	}
 
 	// Update is called once per frame
 	void Update () 
 	{
-		gameObject.transform.Translate (BulletSpeed);
+		
 	}
 }
