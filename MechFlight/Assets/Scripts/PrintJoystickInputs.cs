@@ -36,8 +36,6 @@ public class PrintJoystickInputs : MonoBehaviour {
 
 		//print (MovementDirection);
 
-
-
 		if (Input.GetAxis ("Fire") > 0)
 		{
 			Instantiate (ammoType, barrelLPosition.transform.position, barrelLPosition.transform.rotation);

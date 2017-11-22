@@ -4,14 +4,20 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour {
 
+	public float Amplitude;
+	public float VerticalSpeed;
+
+	private Vector3 MovingPosition;
+
 	// Use this for initialization
 	void Start () {
 		
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		gameObject.transform.Translate(new Vector3( 0.0f, Mathf.Sin (Time.deltaTime),0.0f));
-		print (Mathf.Sin (Time.deltaTime));
+	void FixedUpdate () 
+	{
+		gameObject.transform.Translate(new Vector3( 0.0f, Mathf.Sin (Time.timeSinceLevelLoad * VerticalSpeed) * Amplitude,0.0f));
 	}
+
 }
