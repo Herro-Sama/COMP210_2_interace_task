@@ -8,6 +8,8 @@ public class PrintJoystickInputs : MonoBehaviour {
 	public float rotationSpeed = 100.0F;
 
 	public GameObject ammoType;
+	public GameObject barrelLPosition;
+	public GameObject barrelRPosition;
 
 	private Vector3 MovementDirection; 
 	private Vector3 RotationDirection;
@@ -38,7 +40,8 @@ public class PrintJoystickInputs : MonoBehaviour {
 
 		if (Input.GetAxis ("Fire") > 0)
 		{
-			Instantiate (ammoType, gameObject.transform.position, gameObject.transform.rotation);
+			Instantiate (ammoType, barrelLPosition.transform.position, barrelLPosition.transform.rotation);
+			Instantiate (ammoType, barrelRPosition.transform.position, barrelRPosition.transform.rotation);
 		}
 
 		gameObject.transform.Translate (MovementDirection);
