@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class BulletMotion : MonoBehaviour {
 
-	void Fire ()
+	void Start ()
 	{
-		gameObject.GetComponent<Rigidbody>().velocity = gameObject.transform.forward * 6;
+		gameObject.GetComponent<Rigidbody>().velocity = gameObject.transform.forward * 26;
 		Destroy (gameObject, 2.0f);
 	}
 
