@@ -6,7 +6,7 @@ public class EnemyDamage : MonoBehaviour {
 
 	private float Health = 50;
 
-
+	public GameObject Explosion;
 
 	void OnTriggerEnter (Collider BulletCollider) 
 	{
@@ -14,6 +14,8 @@ public class EnemyDamage : MonoBehaviour {
 		{
 			if (Health <= 0)
 			{
+				
+				Instantiate (Explosion, gameObject.transform.position, gameObject.transform.rotation);
 				Destroy (gameObject);
 			}
 
