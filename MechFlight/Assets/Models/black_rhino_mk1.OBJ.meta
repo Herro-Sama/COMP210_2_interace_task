@@ -1,0 +1,191 @@
+fileFormatVersion: 2
+guid: 4a817de1b44a2624dab9f2cf4f841408
+timeCreated: 1512476953
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BallTurret
+    100002: //RootNode
+    100004: Canopy
+    100006: GattlingGun
+    100008: Hip
+    100010: Hull
+    100012: Hull_MeshPart0
+    100014: Hull_MeshPart1
+    100016: LeftCannon
+    100018: LeftFoot
+    100020: LeftShin
+    100022: LeftSwivel
+    100024: LeftThigh
+    100026: ltoe
+    100028: LToeIn
+    100030: LToeOut
+    100032: RightCannon
+    100034: RightFoot
+    100036: RightShin
+    100038: RightSwivel
+    100040: RightThigh
+    100042: rtoe
+    100044: RToeIn
+    100046: RToeOut
+    400000: BallTurret
+    400002: //RootNode
+    400004: Canopy
+    400006: GattlingGun
+    400008: Hip
+    400010: Hull
+    400012: Hull_MeshPart0
+    400014: Hull_MeshPart1
+    400016: LeftCannon
+    400018: LeftFoot
+    400020: LeftShin
+    400022: LeftSwivel
+    400024: LeftThigh
+    400026: ltoe
+    400028: LToeIn
+    400030: LToeOut
+    400032: RightCannon
+    400034: RightFoot
+    400036: RightShin
+    400038: RightSwivel
+    400040: RightThigh
+    400042: rtoe
+    400044: RToeIn
+    400046: RToeOut
+    2300000: BallTurret
+    2300002: Canopy
+    2300004: GattlingGun
+    2300006: Hip
+    2300008: Hull_MeshPart0
+    2300010: Hull_MeshPart1
+    2300012: LeftCannon
+    2300014: LeftFoot
+    2300016: LeftShin
+    2300018: LeftSwivel
+    2300020: LeftThigh
+    2300022: ltoe
+    2300024: LToeIn
+    2300026: LToeOut
+    2300028: RightCannon
+    2300030: RightFoot
+    2300032: RightShin
+    2300034: RightSwivel
+    2300036: RightThigh
+    2300038: rtoe
+    2300040: RToeIn
+    2300042: RToeOut
+    3300000: BallTurret
+    3300002: Canopy
+    3300004: GattlingGun
+    3300006: Hip
+    3300008: Hull_MeshPart0
+    3300010: Hull_MeshPart1
+    3300012: LeftCannon
+    3300014: LeftFoot
+    3300016: LeftShin
+    3300018: LeftSwivel
+    3300020: LeftThigh
+    3300022: ltoe
+    3300024: LToeIn
+    3300026: LToeOut
+    3300028: RightCannon
+    3300030: RightFoot
+    3300032: RightShin
+    3300034: RightSwivel
+    3300036: RightThigh
+    3300038: rtoe
+    3300040: RToeIn
+    3300042: RToeOut
+    4300000: BallTurret
+    4300002: Canopy
+    4300004: GattlingGun
+    4300006: Hip
+    4300008: Hull_MeshPart0
+    4300010: Hull_MeshPart1
+    4300012: LeftCannon
+    4300014: LeftFoot
+    4300016: LeftShin
+    4300018: LeftSwivel
+    4300020: LeftThigh
+    4300022: ltoe
+    4300024: LToeIn
+    4300026: LToeOut
+    4300028: RightCannon
+    4300030: RightFoot
+    4300032: RightShin
+    4300034: RightSwivel
+    4300036: RightThigh
+    4300038: rtoe
+    4300040: RToeIn
+    4300042: RToeOut
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
