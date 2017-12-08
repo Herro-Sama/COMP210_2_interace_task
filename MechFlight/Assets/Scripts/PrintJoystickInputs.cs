@@ -42,6 +42,16 @@ public class PrintJoystickInputs : MonoBehaviour {
 			Instantiate (ammoType, barrelRPosition.transform.position, barrelRPosition.transform.rotation);
 		}
 
+		if (Input.GetAxis ("Boost") > 0)
+		{
+			speed = 25.0f;
+		} 
+		else
+		{
+			speed = 10.0f;
+		}
+
+
 		gameObject.transform.Translate (MovementDirection);
 		gameObject.transform.Rotate (RotationDirection);
 
