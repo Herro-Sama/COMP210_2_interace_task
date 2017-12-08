@@ -2,7 +2,7 @@
 
 MechFlight is a Space Mech flight experience where, the player controls their Mech from the cockpit while fighting enemy mechs. This is a prototype so it lacks much of the depth of a full game but it has been an interesting game to develop and work on.
 
-If this project was taken on to be fully developed I think that it could do very well as their isn't another game like this one on the market currently. 
+If this project was taken on to be fully developed I think that it could do very well as their isn't another game like this one on the market currently. Although ARCHANGLE is the first to step into this genre it is very much an on rails shooter.
 
 
 Models Sourced from:
