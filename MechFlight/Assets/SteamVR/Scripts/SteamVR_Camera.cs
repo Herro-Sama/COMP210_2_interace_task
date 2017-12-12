@@ -182,7 +182,7 @@ public class SteamVR_Camera : MonoBehaviour
 		{
 			_head = new GameObject(name + headSuffix, typeof(SteamVR_TrackedObject)).transform;
 			head.parent = _origin;
-			head.position = transform.position;
+			//head.position = transform.position;
 			head.rotation = transform.rotation;
 			head.localScale = Vector3.one;
 			head.tag = tag;
@@ -191,7 +191,7 @@ public class SteamVR_Camera : MonoBehaviour
 		if (transform.parent != head)
 		{
 			transform.parent = head;
-			transform.localPosition = Vector3.zero;
+			//transform.localPosition = Vector3.zero;
 			transform.localRotation = Quaternion.identity;
 			transform.localScale = Vector3.one;
 
