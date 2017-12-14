@@ -20,3 +20,10 @@ https://poly.google.com/view/eV232rQZrgh - Enemy Mech Suit
 https://poly.google.com/view/enaIlQWET9a - Asteroid 
 
 https://forum.unity.com/attachments/starscape-png.193022/ - Skybox texture image
+
+
+## Audio Sourced from:
+
+http://soundbible.com/1320-Short-Circuit.html - Short Circuit Sound
+
+http://soundbible.com/1598-Electronic-Chime.html - Electronic Chime
