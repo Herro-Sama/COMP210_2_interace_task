@@ -12,7 +12,7 @@ Player base: 1,176,418 users
 Price: £2.79
 Player base: 877
 
-One other notable game is Archangel though is doesn't give the user the ability to move freely, 
+### Archangel 
 
 Price:£22.99
 Player base: 4,166
