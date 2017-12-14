@@ -73,7 +73,7 @@ public class SteamVR_Camera : MonoBehaviour
 			// Keep the head around, but parent to the camera now since it moves with the hmd
 			// but existing content may still have references to this object.
 			head.parent = t;
-			head.localPosition = Vector3.zero;
+			//head.localPosition = Vector3.zero;
 			head.localRotation = Quaternion.identity;
 			head.localScale = Vector3.one;
 			head.gameObject.SetActive(false);
@@ -101,7 +101,7 @@ public class SteamVR_Camera : MonoBehaviour
 	void Awake()
 	{
 		camera = GetComponent<Camera>(); // cached to avoid runtime lookup
-		ForceLast();
+		//ForceLast();
     }
 
 	static Hashtable values;
@@ -173,7 +173,7 @@ public class SteamVR_Camera : MonoBehaviour
 		if (_origin == null)
 		{
 			_origin = new GameObject(name + originSuffix).transform;
-			_origin.localPosition = transform.localPosition;
+			//_origin.localPosition = transform.localPosition;
 			_origin.localRotation = transform.localRotation;
 			_origin.localScale = transform.localScale;
 		}

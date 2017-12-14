@@ -22,7 +22,7 @@ public class PrintJoystickInputs : MonoBehaviour {
 			
 
 		RotationDirection.x = Input.GetAxis("VerticalJoy2") * rotationSpeed;
-		RotationDirection.y = Input.GetAxis("HorizontalJoy2") * rotationSpeed;
+		RotationDirection.z = Input.GetAxis("HorizontalJoy2") * rotationSpeed *-1;
 		RotationDirection *= Time.deltaTime;
 
 		//print("Vertical Joystick One " + Input.GetAxis("VerticalJoy1"));
@@ -38,8 +38,15 @@ public class PrintJoystickInputs : MonoBehaviour {
 
 		if (Input.GetAxis ("Fire") > 0)
 		{
+			barrelLPosition.GetComponent<AudioSource> ().enabled = true;
+			barrelRPosition.GetComponent<AudioSource> ().enabled = true;
 			Instantiate (ammoType, barrelLPosition.transform.position, barrelLPosition.transform.rotation);
 			Instantiate (ammoType, barrelRPosition.transform.position, barrelRPosition.transform.rotation);
+		} 
+		else
+		{
+			barrelLPosition.GetComponent<AudioSource> ().enabled = false;
+			barrelRPosition.GetComponent<AudioSource> ().enabled = false;
 		}
 
 		if (Input.GetAxis ("Boost") > 0)

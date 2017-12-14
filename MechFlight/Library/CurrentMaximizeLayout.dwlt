@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 471}
   m_MaxSize: {x: 14000, y: 14021}
   vertical: 0
-  controlID: 788
+  controlID: 9686
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 471}
   m_MaxSize: {x: 10000, y: 14021}
   vertical: 1
-  controlID: 789
+  controlID: 9687
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 790
+  controlID: 9688
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -200,10 +200,10 @@ MonoBehaviour:
     width: 403
     height: 489
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: e8fbffff00000000
+    scrollPos: {x: 0, y: 200}
+    m_SelectedIDs: 9efaffff
+    m_LastClickedID: -1378
+    m_ExpandedIDs: 80fbffff00000000902d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -280,14 +280,14 @@ MonoBehaviour:
     width: 956
     height: 489
   m_SceneLighting: 1
-  lastFramingTime: 4699.528523061728
+  lastFramingTime: 115.07068444444445
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -55.49973, y: 61.1439, z: -76.58976}
+    m_Target: {x: 1.2472414, y: 17.478216, z: 37.798027}
     speed: 2
-    m_Value: {x: -55.49973, y: 61.1439, z: -76.58976}
+    m_Value: {x: 1.2472414, y: 17.478216, z: 37.798027}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -310,9 +310,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.2531807, y: 0.47421628, z: -0.14452103, w: 0.83074194}
+    m_Target: {x: 0.0019094528, y: 0.9772931, z: -0.21170078, w: 0.008800083}
     speed: 2
-    m_Value: {x: 0.2531807, y: 0.47421625, z: -0.14452103, w: 0.83074194}
+    m_Value: {x: 0.0019094528, y: 0.9772931, z: -0.21170077, w: 0.008800083}
   m_Size:
     m_Target: 22
     speed: 2
@@ -416,19 +416,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Audio
   m_ViewMode: 1
-  m_StartGridSize: 65
+  m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
-  m_LastFoldersGridSize: 65
-  m_LastProjectPath: C:\Users\sandy\OneDrive\Documents\Coursework1718\COMP210_2_interace_task\MechFlight
+  - Assets/Audio
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: C:\Users\sandy\Desktop\Comp210- Alex\COMP210_2_interace_task\MechFlight
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 17}
-    m_SelectedIDs: a0280000
-    m_LastClickedID: 10400
-    m_ExpandedIDs: 000000007e2600000e27000076290000a029000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 69}
+    m_SelectedIDs: dc280000
+    m_LastClickedID: 10460
+    m_ExpandedIDs: 00000000ea26000076270000c6290000a82a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -456,7 +456,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007e2600000e27000076290000a029000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000ea26000076270000c6290000a82a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -481,8 +481,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 9efaffff
+    m_LastClickedInstanceID: -1378
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300000000000074390000
     m_RenameOverlay:
@@ -509,7 +509,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 65
+    m_GridSize: 16
   m_DirectoriesAreaWidth: 182
 --- !u!114 &12
 MonoBehaviour:
@@ -588,7 +588,7 @@ MonoBehaviour:
     y: 92
     width: 553
     height: 926
-  m_ScrollPosition: {x: 0, y: 0}
+  m_ScrollPosition: {x: 0, y: 699.0557}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160

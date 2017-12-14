@@ -14,7 +14,8 @@ public class EnemyDamage : MonoBehaviour {
 		{
 			if (Health <= 0)
 			{
-				
+
+				GetComponent<AudioSource> ().enabled = true;
 				Instantiate (Explosion, gameObject.transform.position, gameObject.transform.rotation);
 				Destroy (gameObject);
 			}
